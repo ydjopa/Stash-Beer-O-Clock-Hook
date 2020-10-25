@@ -7,18 +7,5 @@
         <param name="plugin-logo">images/pluginLogo.png</param>
     </plugin-info>
 
-    <!-- add our i18n resource -->
-    <resource type="i18n" name="i18n" location="beeroclock-plugin"/>
-    
-    <!-- add our web resources -->
-    <web-resource key="beeroclock-plugin-resources" name="beeroclock-plugin Web Resources">
-        <dependency>com.atlassian.auiplugin:ajs</dependency>
-        
-        <resource type="download" name="beeroclock-plugin.css" location="/css/beeroclock-plugin.css"/>
-        <resource type="download" name="beeroclock-plugin.js" location="/js/beeroclock-plugin.js"/>
-        <resource type="download" name="images/" location="/images"/>
-
-        <context>beeroclock-plugin</context>
-    </web-resource>
     
 </atlassian-plugin>
